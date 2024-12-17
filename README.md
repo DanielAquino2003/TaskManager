@@ -1,43 +1,36 @@
-Aquí tienes un ejemplo de un README.md para tu aplicación de tareas desarrollada con React. Este archivo es claro, informativo y bien estructurado. Siéntete libre de adaptarlo según las características específicas de tu proyecto:
-TaskLY - Aplicación de Gestión de Tareas 📝
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-TaskLY es una aplicación web desarrollada con React para la gestión eficiente de tareas. Organiza tus tareas, asigna prioridades y mantén un control completo sobre tu productividad.
-📋 Características
+## Getting Started
 
-    Crear, Leer, Actualizar y Eliminar tareas (CRUD).
-    Organización de tareas por estados (pendiente, en progreso, completada).
-    Interfaz amigable y responsiva.
-    Filtro y búsqueda de tareas por nombre o estado.
-    Almacenamiento persistente (opcional: localStorage o backend API).
+First, run the development server:
 
-🚀 Tecnologías Utilizadas
-
-    Frontend: React.js (Vite o Create React App)
-    Estilos: CSS, Tailwind CSS o Bootstrap
-    Estado: React Hooks (useState, useEffect)
-    Backend (opcional): API REST desarrollada con Django
-    Base de Datos (opcional): PostgreSQL 
-
-📦 Instalación y Configuración
-
-Sigue estos pasos para ejecutar la aplicación en tu entorno local:
-1. Clonar el repositorio
-
-git clone https://github.com/tu-usuario/taskly.git
-cd taskly
-
-2. Instalar dependencias
-
-npm install
-
-3. Iniciar el servidor de desarrollo
-
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-La aplicación estará disponible en http://localhost:5173 si usas Vite o en http://localhost:3000 si usas CRA.
-🌟 Uso de la Aplicación
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-    Agregar Tarea: Haz clic en el botón "Agregar Tarea" e introduce un nombre y descripción.
-    Actualizar Estado: Marca las tareas como "Pendiente", "En progreso" o "Completada".
-    Eliminar Tarea: Borra tareas que ya no necesites.
-    Filtrado: Utiliza las opciones de filtro para ver tareas según su estado.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

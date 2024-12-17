@@ -1,0 +1,67 @@
+/* Custom styles for the calendar component 
+  Author: Daniel
+*/
+/* Override default styles */
+.rbc-calendar {
+    background-color: #18181b; /* bg-zinc-900 */
+    color: #ffffff;
+  }
+  
+  .rbc-month-view {
+    border: none;
+  }
+  
+  .rbc-header {
+    background-color: #27272a; /* bg-zinc-800 */
+    color: #a1a1aa; /* text-zinc-400 */
+    font-weight: 500;
+    padding: 0.5rem;
+    border: none;
+  }
+  
+  .rbc-month-row {
+    border-top: 1px solid #3f3f46; /* border-zinc-700 */
+  }
+  
+  .rbc-day-bg {
+    background-color: #27272a; /* bg-zinc-800 */
+    border-left: 1px solid #3f3f46; /* border-zinc-700 */
+  }
+  
+  .rbc-off-range-bg {
+    background-color: #3f3f46; /* bg-zinc-700 */
+  }
+  
+  .rbc-date-cell {
+    padding: 0.25rem;
+    text-align: center;
+    color: #d4d4d8; /* text-zinc-300 */
+  }
+  
+  .rbc-today {
+    background-color: #3f3f46; /* bg-zinc-700 */
+  }
+  
+  .rbc-event {
+    border-radius: 0.25rem;
+  }
+  
+  /* Custom scrollbar styles */
+  .rbc-calendar::-webkit-scrollbar {
+    width: 0.375rem;
+  }
+  
+  .rbc-calendar::-webkit-scrollbar-track {
+    background: #27272a; /* bg-zinc-800 */
+  }
+  
+  .rbc-calendar::-webkit-scrollbar-thumb {
+    background-color: #52525b; /* bg-zinc-600 */
+    border-radius: 9999px;
+  }
+  
+  .rbc-calendar::-webkit-scrollbar-thumb:hover {
+    background-color: #71717a; /* bg-zinc-500 */
+  }
+  
+  
